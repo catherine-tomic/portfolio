@@ -1,16 +1,16 @@
 name: Invalidate CloudFront After Railway Deploy
 
 on:
-  workflow_run:
-    workflows: ["Deploy to Railway"]
-    types:
-      - completed
+  push:
+    branches:
+      - main
 
 jobs:
-  post-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
+      - name: Wait for Railway
+        run: sleep 120
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
