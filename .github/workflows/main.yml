@@ -1,18 +1,16 @@
-name: Invalidate CloudFront Cache
+name: Invalidate CloudFront After Railway Deploy
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Deploy to Railway"]
+    types:
+      - completed
 
 jobs:
-  invalidate-cache:
+  post-deploy:
     runs-on: ubuntu-latest
-
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -20,8 +18,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: Create CloudFront invalidation
+      - name: Invalidate CloudFront cache
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
             --paths "/*"
