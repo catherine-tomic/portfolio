@@ -1,6 +1,26 @@
 const projects = [
     {
         id: 1,
+        title: "Ignite",
+        tech_stack: [
+            "React-Native",
+            "Expo",
+            "TypeScript",
+            "Firebase"
+        ],
+        description:
+            "A full-stack social media dating app MVP from a hackathon",
+        bullets: [
+            "Collaborated in a hackathon to deliver a fully functional mobile dating app MVP in 41.5 hours",
+            "Designed and implemented Firestore database schema for users, likes, passes, and matches with query logic",
+            "Designed and implemented user authentication and cloud-based image storage for user profiles",
+            "Collaborated on UI/UX elements including scrollable screens, form validation displays, and a double-sided slider"
+        ],
+        tag: "Hackathon",
+        link: "https://www.youtube.com/shorts/chjGXHpT62E"
+    },
+    {
+        id: 2,
         title: "Radio Station Management Web App",
         tech_stack: [
             "EJS",
@@ -21,7 +41,7 @@ const projects = [
         tag: "Academic Project",
     },
     {
-        id: 2,
+        id: 3,
         title: "Bubble Pop - Android Social Media App",
         tech_stack: [
             "Android Studio",
@@ -39,7 +59,7 @@ const projects = [
         tag: "Academic Project",
     },
     {
-        id: 3,
+        id: 4,
         title: "Metro Live",
         tech_stack: [
             "HTML/CSS",
@@ -59,7 +79,7 @@ const projects = [
         tag: "Project",
     },
     {
-        id: 4,
+        id: 5,
         title: "Immigrant Marital Status Change Workflow",
         tech_stack: [
             "Java", 
@@ -77,7 +97,7 @@ const projects = [
         tag: "Academic Project",
     },
     {
-        id: 5,
+        id: 6,
         title: "PageRank Algorithm Language Conversion",
         tech_stack: [
             "Java",
@@ -93,7 +113,7 @@ const projects = [
         tag: "Academic Project",
     },
     {
-        id: 6,
+        id: 7,
         title: "Self Discovery Adventure Game",
         tech_stack: [
             "C#",
@@ -108,7 +128,7 @@ const projects = [
         tag: "Academic Project",
     },
     {
-        id: 7,
+        id: 8,
         title: "Status Now",
         tech_stack: [
             "React",

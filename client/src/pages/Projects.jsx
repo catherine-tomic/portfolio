@@ -21,7 +21,18 @@ const Projects = () => {
 
                     <div className="space-y-8">
                         {projects.map((project) => (
-                            <ProjectCard key={project.id} project={project} />
+                            project.link ? (
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block"
+                                >
+                                    <ProjectCard key={project.id} project={project} />
+                                </a>
+                            ) : (
+                                <ProjectCard key={project.id} project={project} />
+                            )
                         ))}
                     </div>
                 </section>

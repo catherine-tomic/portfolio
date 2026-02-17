@@ -19,8 +19,12 @@ const Home = () => {
                     </h2>
 
                     <p className="text-lg text-gray-300 leading-relaxed">
-                        Computer Science major at George Mason University with experrience using React, Node.js, and AWS. 
-                        Passionate about writing clean and scalable code.
+                        Computer Science major at George Mason University and soon to be graduate 
+                        in May 2026. I develop full-stack software with a focus in backend 
+                        implementations. 
+                    </p>
+                    <p className="text-lg text-gray-300 leading-relaxed">
+                        *This portfolio is still a work in progress, more updates are coming soon
                     </p>
 
                     <div className="flex flex-wrap gap-3 mb-10 mt-4">
@@ -66,7 +70,19 @@ const Home = () => {
                     <div className="grid md:grid-cols-2 gap-6">
                         <div className="p-6 rounded-xl bg-gray-900 border border-gray-800 hover:border-purple-400/50 transition">
                             <h4 className="text-xl font-semibold mb-2">
-                                Social Media Mobile App
+                                Ignite - Dating App
+                            </h4>
+                            <p className="text-gray-300 mb-4">
+                                Mobile application built with React-Native and Firebase featuring authentication, real-time chat, and AI-powered services.
+                            </p>
+                            <span className="text-sm text-purple-400">
+                                React-Native | Firebase
+                            </span>
+                        </div>
+
+                        <div className="p-6 rounded-xl bg-gray-900 border border-gray-800 hover:border-purple-400/50 transition">
+                            <h4 className="text-xl font-semibold mb-2">
+                                Social Media Mobile Android App
                             </h4>
                             <p className="text-gray-300 mb-4">
                                 Android application built with Firebase featuring authentication, real-time posts, and user profiles.
