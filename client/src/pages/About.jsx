@@ -43,7 +43,7 @@ const About = () => {
                                 <li>Building full-stack applications</li>
                                 <li>Designing clean and intuitive UIs</li>
                                 <li>Learning new technologies through projects</li>
-                                <li>Fun Fact: My current facorite algorithm is the Gale-Shapely algorithm</li>
+                                <li>Fun Fact: My current favorite algorithm is the Gale-Shapely algorithm</li>
                             </ul>
                         </div>
 

@@ -39,6 +39,7 @@ const projects = [
             "Deployed and configured the application on a university-hosted server for testing"
         ],
         tag: "Academic Project",
+        link: "https://www.youtube.com/watch?v=GOF_H8eAzlU"
     },
     {
         id: 3,
