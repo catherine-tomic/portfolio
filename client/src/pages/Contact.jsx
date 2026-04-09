@@ -27,6 +27,13 @@ const Contact = () => {
                             </a>
 
                             <a
+                                href="mailto:catherinedtomic@gmail.com"
+                                className="hover:text-purple-300 transition"
+                            >
+                                ctomic@gmu.edu
+                            </a>
+
+                            <a
                                 href="https://www.linkedin.com/in/catherine-tomic"
                                 target="_blank"
                                 rel="noopener noferrer"
