@@ -13,26 +13,12 @@ const Contact = () => {
                         <span className="text-purple-400">Me</span>
                     </h1>
 
-                    <p className="text-gray-400 mb-8">
+                    {/* <p className="text-gray-400 mb-8">
                         Feel free to reach out whether you have a question, want to collaborate, or just say hi.
-                    </p>
+                    </p> */}
 
                     <div className="border-t border-gray-800 pt-6">
                         <div className="flex flex-col sm:flex-row gap-4 text-purple-400">
-                            <a
-                                href="mailto:ctomic@gmu.edu"
-                                className="hover:text-purple-300 transition"
-                            >
-                                ctomic@gmu.edu
-                            </a>
-
-                            <a
-                                href="mailto:catherinedtomic@gmail.com"
-                                className="hover:text-purple-300 transition"
-                            >
-                                catherinedtomic@gmail.com
-                            </a>
-
                             <a
                                 href="https://www.linkedin.com/in/catherine-tomic"
                                 target="_blank"
