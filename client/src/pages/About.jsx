@@ -15,8 +15,8 @@ const About = () => {
 
                     {/* Intro */}
                     <p className="text-lg text-gray-200 leading-relaxed mb-6">
-                        I'm a Computer Science major at George Mason University, graduating in May 
-                        2026. I enjoy building full-stack applications and learning new skills.
+                        Graduated from George Mason Universitywith a computer science undergraduate 
+                        degree. I enjoy building full-stack applications and learning new skills.
                     </p>
 
                     {/* Background */}
@@ -37,11 +37,11 @@ const About = () => {
                     <div className="grid md:grid-cols-2 gap-6">
                         <div className="p-6 rounded-xl bg-gray-900 border border-gray-800">
                             <h3 className="text-xl font-semibold mb-2 text-purple-300">
-                                Technical Passions
+                                Technical Stuff I Like
                             </h3>
                             <ul className="text-gray-400 space-y-2">
                                 <li>Building full-stack applications</li>
-                                <li>Designing clean and intuitive UIs</li>
+                                <li>Finding efficient solutions</li>
                                 <li>Learning new technologies through projects</li>
                                 <li>Fun Fact: My current favorite algorithm is the Gale-Shapely algorithm</li>
                             </ul>
@@ -49,7 +49,7 @@ const About = () => {
 
                         <div className="p-6 rounded-xl bg-gray-900 border border-gray-800">
                             <h3 className="text-xl font-semibold mb-2 text-purple-300">
-                                Beyond Code
+                                Not Technical Stuff I Like
                             </h3>
                             <ul className="text-gray-400 space-y-2">
                                 <li>Discovering new music</li>

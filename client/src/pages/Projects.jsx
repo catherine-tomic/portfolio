@@ -15,10 +15,6 @@ const Projects = () => {
                         <span className="text-purple-400">I've Built</span>
                     </h1>
 
-                    <p className="text-md text-gray-500 leading-relaxed mb-10">
-                        *If it is an academic project you have to request access to view
-                    </p>
-
                     <div className="space-y-8">
                         {projects.map((project) => (
                             project.link ? (

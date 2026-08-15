@@ -1,13 +1,28 @@
 const experience = [
     {
         id: 1,
+        role: "Software Engineer",
+        company: "Unison",
+        location: "Hybrid | McLean, VA",
+        duration: "June 2026 - Present",
+        bullets: [
+            "Web Application Development",
+        ],
+        tech: [
+            "C#",
+            ".NET",
+            "SQL"
+        ],
+    },
+    {
+        id: 2,
         role: "Software Engineering Contractor",
         company: "Access Lab",
         location: "Remote | Tokyo, Japan",
-        duration: "December 2025 - Present",
+        duration: "December 2025 - May 2026",
         bullets: [
             "Refactored Firestore Database",
-            "Implemented app lifecycles",
+            "Implemented app lifecycles and webhooks",
         ],
         tech: [
             "Node.js",
@@ -15,7 +30,7 @@ const experience = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         role: "Technical Consultant Intern",
         company: "Capgemini Government Solutions",
         location: "Hybrid | McLean, VA",
@@ -32,7 +47,7 @@ const experience = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         role: "AI Research Intern",
         company: "NuRetail",
         location: "Hybrid | Tokyo, Japan",
